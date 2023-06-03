@@ -71,7 +71,7 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.Blog{
+.Docs{
     padding: 43px;
     font-weight: 700;
     background-color: transparent;
@@ -88,7 +88,7 @@ body{
     
 }
 
-.Blog:hover{
+.Docs:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -244,8 +244,11 @@ body{
     backdrop-filter: blur(5px);
     color: white;
     border: 3px solid white;
+    transition: 0.1s;
 
-
+}
+.m_download:hover{
+    filter: brightness(160%) contrast(100%)
 }
 
 
@@ -320,7 +323,7 @@ body{
     height: 500px;
     background-color:  rgb(61, 61, 61);
     position: relative;
-    bottom: 470px;
+    bottom: 503px;
     left: 400px;
 }
 
@@ -329,6 +332,91 @@ body{
     height: 500px;
     background-color:  rgb(61, 61, 61);
     position: relative;
-    bottom: 970px;
+    bottom: 1003px;
     left: 1050px;
+}
+
+
+
+.dot3{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    position: relative;
+    left: 20px;
+}
+
+.dot4{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+.instruction{
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+
+    position: relative;
+    top: 20px;
+    left: 27px;
+}
+
+.instruction2{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+
+    position: relative;
+    left: 70px;
+    bottom: 106px;
+}
+
+.instruction3{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+
+    position: relative;
+    left: 71px;
+    bottom: 90px;
+}
+
+.instruction4{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+
+    position: relative;
+    left: 70px;
+    bottom: 76px;
+    
+}
+
+.instruction5{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+
+    position: relative;
+    left: 70px;
+    bottom: 76px;
+    
 }
