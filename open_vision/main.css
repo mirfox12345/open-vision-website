@@ -5,15 +5,15 @@ body{
 
 
 
-.GIF {
+.GIF{
     width: 1920px;
     height: 700px;
-    object-fit: cover;
+    
     position: relative;
-    right: 10px;
-    bottom: 10px;
-    filter: brightness(100%) contrast(100%);
-  }
+    right: 8px;
+    bottom: 8px;
+    filter: brightness(60%) contrast(100%)
+}
 
 .navbar_line{
     width: 1920;
@@ -244,7 +244,7 @@ body{
     backdrop-filter: blur(5px);
     color: white;
     border: 3px solid white;
-    cursor: pointer;
+
 
 }
 
